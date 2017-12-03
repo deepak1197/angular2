@@ -3,8 +3,8 @@ import { FormGroup, FormControl, Validators } from '@angular/forms'
 @Component({
   selector: 'my-app',
   templateUrl: `app/app.component.html`,
-  styles:[`input.ng-invalid{border-left:5px solid red;}
-           input.ng-valid{border-left:5px solid green;}`]
+  styles:[`input.ng-invalid{border-left:4px solid red;}
+           input.ng-valid{border-left:4px solid green;}`]
 })
 export class AppComponent {
   userForm = new FormGroup({

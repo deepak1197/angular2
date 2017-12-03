@@ -27,7 +27,7 @@ var AppComponent = /** @class */ (function () {
         core_1.Component({
             selector: 'my-app',
             templateUrl: "app/app.component.html",
-            styles: ["input.ng-invalid{border-left:5px solid red;}\n           input.ng-valid{border-left:5px solid green;}"]
+            styles: ["input.ng-invalid{border-left:4px solid red;}\n           input.ng-valid{border-left:4px solid green;}"]
         })
     ], AppComponent);
     return AppComponent;
