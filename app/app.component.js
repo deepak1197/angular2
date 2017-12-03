@@ -11,7 +11,7 @@ var forms_1 = require("@angular/forms");
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
         this.userForm = new forms_1.FormGroup({
-            name: new forms_1.FormControl('Deepak', [forms_1.Validators.required, forms_1.Validators.minLength(4), forms_1.Validators.maxLength(10)]),
+            name: new forms_1.FormControl('Deepak', [forms_1.Validators.required, forms_1.Validators.minLength(5), forms_1.Validators.maxLength(12)]),
             email: new forms_1.FormControl(),
             address: new forms_1.FormGroup({
                 street: new forms_1.FormControl(),

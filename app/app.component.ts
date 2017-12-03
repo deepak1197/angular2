@@ -8,11 +8,11 @@ import { FormGroup, FormControl, Validators } from '@angular/forms'
 })
 export class AppComponent {
   userForm = new FormGroup({
-    name: new FormControl('Deepak',[Validators.required,Validators.minLength(4),Validators.maxLength(10)]),
+    name: new FormControl('Deepak',[Validators.required,Validators.minLength(5),Validators.maxLength(12)]),
     email:new FormControl(),
     address:new FormGroup({
       street: new FormControl(),
-      city: new FormControl(),
+      city: new FormControl()
       postalcode: new FormControl(null,Validators.pattern('^[1-9][0-9]{5}'))
     })
   });
